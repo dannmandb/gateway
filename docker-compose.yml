@@ -12,7 +12,7 @@ services:
     #  - "8080:8080"
     #  - "4443:4443"
     environment:
-      - "TZ=America/Los_Angeles"
+      - "TZ=Europe/London"
     volumes:
       - /opt/docker/webthings-gateway:/home/node/.webthings
     logging:
